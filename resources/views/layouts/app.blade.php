@@ -39,6 +39,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('articles.index') }}">Articles</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('user.articles', auth()->user()) }}">Your articles</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
